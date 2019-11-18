@@ -1,0 +1,56 @@
+.recipe{
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(71,71,71);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: white;
+    align-items: center;
+    min-width: 40%;
+}
+
+.cal {
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(71,71,71);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: rgb(171, 201, 128);
+    align-items: center;
+    min-width: 10%;
+    text-decoration-color: grey;
+}
+
+.title {
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(71,71,71);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color:linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    align-items: center;
+    min-width: 20%;
+    text-decoration-color: grey;
+    /* background: rgb(253, 241, 218); */
+    font-family: fantasy;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.font_ing {
+    font-family: monospace;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    
+}
+.font_detail {
+    font-family: monospace;
+    font-style: inherit;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    
+}
